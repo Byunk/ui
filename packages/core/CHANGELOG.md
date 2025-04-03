@@ -1,5 +1,11 @@
 # @byunk-ui/core
 
+## 0.0.4
+
+### Patch Changes
+
+- e8734eb: update package.json
+
 ## 0.0.3
 
 ### Patch Changes
