@@ -2,20 +2,40 @@
   "name": "@byunk-ui/core",
   "version": "0.0.1",
   "private": true,
-  "exports": {
-    "./*": "./src/*.tsx"
+  "license": "MIT",
+  "author": {
+    "name": "Kyungho Byoun",
+    "email": "kyungho.byoun@gmail.com"
   },
+  "repository": {
+    "url": "https://github.com/byunk/ui",
+    "type": "git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "tailwind",
+    "tailwindcss",
+    "nextjs",
+    "components",
+    "ui-kit"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "README.md"
+  ],
   "scripts": {
     "build": "rollup --config",
     "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
-    "@repo/typescript-config": "workspace:*",
     "@rollup/plugin-typescript": "^12.1.2",
-    "@turbo/gen": "^2.4.4",
     "@types/node": "^22.13.10",
     "@types/react": "19.0.12",
     "@types/react-dom": "19.0.4",
@@ -27,6 +47,7 @@
     "eslint-plugin-turbo": "^2.4.4",
     "globals": "^16.0.0",
     "rollup": "^4.39.0",
+    "tslib": "^2.8.1",
     "typescript": "5.8.2",
     "typescript-eslint": "^8.29.0"
   },

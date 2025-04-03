@@ -1,10 +1,22 @@
 import typescript from '@rollup/plugin-typescript';
 
 export default {
-  input: 'src/main.js',
-  output: {
-    file: 'bundle.js',
-    format: 'cjs',
-  },
+  input: 'src/index.ts',
+  output: [
+    {
+      dir: 'dist',
+      format: 'cjs',
+      entryFileNames: '[name].cjs',
+      preserveModules: true,
+      preserveModulesRoot: 'src',
+    },
+    {
+      dir: 'dist',
+      format: 'esm',
+      preserveModules: true,
+      preserveModulesRoot: 'src',
+    },
+  ],
+  external: [/node_modules/],
   plugins: [typescript()],
 };
