@@ -1,5 +1,5 @@
 {
-  "name": "byunk-ui",
+  "name": "@byunk-ui/byunk-ui",
   "private": true,
   "scripts": {
     "build": "turbo run build",
