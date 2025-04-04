@@ -1,5 +1,11 @@
 # @byunk-ui/core
 
+## 0.0.6
+
+### Patch Changes
+
+- 1f4f7cc: Introduce storybook app
+
 ## 0.0.5
 
 ### Patch Changes

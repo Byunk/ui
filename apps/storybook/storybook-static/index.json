@@ -1,1 +1,0 @@
-{"v":5,"entries":{"helloworld--default":{"type":"story","id":"helloworld--default","name":"Default","title":"HelloWorld","importPath":"./components/HelloWorld.stories.tsx","componentPath":"@byunk-ui/core","tags":["dev","test"]}}}

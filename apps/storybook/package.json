@@ -1,11 +1,10 @@
 {
   "name": "storybook",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "storybook dev -p 6006",
-    "build": "storybook build --docs"
+    "dev": "storybook dev -p 6006"
   },
   "dependencies": {
     "@byunk-ui/core": "workspace:*",
