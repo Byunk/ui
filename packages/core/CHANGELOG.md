@@ -1,5 +1,11 @@
 # @byunk-ui/core
 
+## 0.0.5
+
+### Patch Changes
+
+- 04ed791: fix: rollup typescript plugin
+
 ## 0.0.4
 
 ### Patch Changes
