@@ -17,6 +17,17 @@ export default {
       preserveModulesRoot: 'src',
     },
   ],
-  external: [/node_modules/],
-  plugins: [typescript()],
+  external: [
+    'react',
+    'react-dom',
+    'tailwind-merge',
+    'tslib',
+    'class-variance-authority',
+  ],
+  plugins: [
+    typescript({
+      tsconfig: './tsconfig.json',
+      exclude: ['**/stories/**', '**/tests/**', './styles.css'],
+    }),
+  ],
 };
