@@ -46,11 +46,13 @@
     "eslint-plugin-turbo": "^2.4.4",
     "globals": "^16.0.0",
     "rollup": "^4.39.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-preserve-directives": "^0.4.0",
     "tslib": "^2.8.1",
     "typescript": "5.8.2",
     "typescript-eslint": "^8.29.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
